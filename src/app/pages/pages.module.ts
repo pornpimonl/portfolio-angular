@@ -13,6 +13,7 @@ import { CertificatesComponent } from './certificates/certificates.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { MaterialModule } from '../material/material.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { MaterialModule } from '../material/material.module';
     SkillsComponent,
     CertificatesComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
